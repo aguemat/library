@@ -2,9 +2,45 @@
   "name": "smartups",
   "private": true,
   "scripts": {
-    "tester": "echo HOLA"
+    "bootstrap": "lerna clean -y && lerna bootstrap",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js",
+    "start": "lerna bootstrap && lerna run start --stream",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-private-methods": "^7.12.1",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.12.7",
+    "@storybook/addon-actions": "^6.1.6",
+    "@storybook/addon-controls": "^6.1.7",
+    "@storybook/addon-essentials": "^6.1.6",
+    "@storybook/addon-links": "^6.1.6",
+    "@storybook/react": "^6.1.6",
+    "babel-loader": "^8.2.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "bootstrap": "^4.5.3",
+    "formik": "^2.2.5",
+    "lerna": "^3.22.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.7.3",
+    "react-router-dom": "^5.2.0",
+    "react-number-format": "^4.4.1",
+    "react-select": "^3.1.1",
+    "react-image-file-resizer": "^0.3.8",
+    "react-images-upload": "^1.2.8",
+    "raphael": "^2.3.0",
+    "jquery": "^3.5.1",
+    "treantjs": "^1.0.0",
+    "sweetalert2": "^9.17.1",
+    "react-table-v6": "^6.8.6",
+    "react-transition-group": "^4.4.1"
   }
 }
