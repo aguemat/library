@@ -1,0 +1,41 @@
+.Treant .collapse-switch {
+    width: 0px !important;
+    height: 0px !important;
+    display: block;
+    border: 0px solid black !important;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+  }
+  
+  .Treant .collapse-switch::before {
+    font-weight: 400;
+    content: '+';
+    color: blue;
+    border: 1px solid;
+    padding: 1px 3px;
+    margin: 0px 0px 0px 5px;
+    font-size: 10px;
+    top: -8px;
+    position: absolute;
+    line-height: 10px;
+  }
+  
+  .Treant .node.collapsed .collapse-switch::before {
+    font-weight: 400;
+    content: '-';
+    color: blue;
+    border: 1px solid;
+    padding: 1px 4px;
+    margin: 0px 0px 0px 5px;
+    font-size: 10px;
+    top: -8px;
+    position: absolute;
+    line-height: 10px;
+  }
+  
+  .Treant .node.collapsed .collapse-switch:hover,
+  .Treant .collapse-switch:hover {
+    text-decoration: none;
+  }
