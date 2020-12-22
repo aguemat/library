@@ -1,0 +1,19 @@
+{
+  "name": "@aguemat/library-utils-components",
+  "version": "1.0.0",
+  "description": "React Utils components",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguemat/library.git"
+  },
+  "author": "Smartups",
+  "license": "MIT",
+  "gitHead": "186963ce773946a6af05269ce18fba1122e35999"
+}
