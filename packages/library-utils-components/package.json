@@ -1,6 +1,6 @@
 {
   "name": "@aguemat/library-utils-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Utils components",
   "main": "index.js",
   "scripts": {
