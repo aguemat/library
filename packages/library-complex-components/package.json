@@ -27,7 +27,7 @@
   "keywords": [],
   "dependencies": {
     "@aguemat/library-forms-components": "^1.0.2",
-    "@aguemat/react-basic-components": "^1.0.5",
+    "@aguemat/library-basic-components": "^1.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "yup": "^0.31.0"
