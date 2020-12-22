@@ -33,6 +33,7 @@ jobs:
           git config --global user.name '@aguemat'
           git config --global user.email 'aguematj@gmail.com'
       - run: npm install
+      - run: npm run tester
       - run: npm ci
       - run: node_modules/lerna/cli.js publish --yes
         env:

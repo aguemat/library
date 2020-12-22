@@ -1,6 +1,9 @@
 {
   "name": "smartups",
   "private": true,
+  "scripts": {
+    "tester": "echo HOLA"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }
