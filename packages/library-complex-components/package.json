@@ -1,6 +1,6 @@
 {
   "name": "@aguemat/library-complex-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React complex components",
   "module": "lib/index.js",
   "main": "src/index.js",
@@ -26,8 +26,8 @@
   "gitHead": "186963ce773946a6af05269ce18fba1122e35999",
   "keywords": [],
   "dependencies": {
+    "@aguemat/library-forms-components": "^1.0.2",
     "@aguemat/react-basic-components": "^1.0.5",
-    "@aguemat/library-forms-components": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "yup": "^0.31.0"

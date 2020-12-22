@@ -1,6 +1,6 @@
 {
   "name": "@aguemat/library-forms-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Forms components",
   "module": "lib/index.js",
   "main": "src/index.js",
